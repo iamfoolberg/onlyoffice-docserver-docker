@@ -13,7 +13,7 @@ docker build -t berg/documentserver:latest .
 #1.2 generate and add your ssl keys in volume ood-data/_data/certs/
 #1.3 prepare the app.js files in volume ood-lib/_data/
 #the startup.sh will be executed when the container start,
-# and do lines in it.
+#and do lines in it.
 
 docker run -itd \
         --name onlyoffice --network mydockernet --restart=always \
